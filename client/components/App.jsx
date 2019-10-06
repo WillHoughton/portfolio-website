@@ -1,31 +1,30 @@
-import React from 'react'
+import React, { Component, Fragment } from 'react'
+import ReactDOM from 'react-dom'
+import Render from './Render'
+import { connect } from 'react-redux'
+import { HashRouter as Router, Route } from 'react-router-dom'
 
-import { getFruits } from '../apiClient'
 
-class App extends React.Component {
-  state = {
-    fruits: []
-  }
-
-  componentDidMount () {
-    getFruits()
-      .then(fruits => {
-        this.setState({fruits})
-      })
-  }
-
-  render () {
+class App extends Component {
+  render() {
     return (
-      <div className='app'>
-        <h1>Fullstack Boilerplate</h1>
-        <ul>
-          {this.state.fruits.map(fruit => (
-            <li key={fruit}>{fruit}</li>
-          ))}
-        </ul>
-      </div>
+      <Fragment>
+        <div>
+          <Render />
+          <p>Hello world</p>
+          {/* TEMP DISABLED */}
+          {/* Means that if showLanding is true we display the portal page, if not we display webapp */}
+          {/* { this.props.showLanding ? <LandingPage /> : <Main />} */}
+        </div>
+      </Fragment>
     )
   }
 }
 
-export default App
+function mapStateToProps(state) {
+  return {
+    LandingPage: state.isNewUser
+  }
+}
+
+export default connect(mapStateToProps)(App)
