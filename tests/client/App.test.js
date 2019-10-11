@@ -29,3 +29,8 @@ test('renders an <li> for each fruit', () => {
   wrapper.setState({fruits: ['orange', 'persimmons', 'kiwi fruit']})
   expect(wrapper.find('li').length).toBe(3)
 })
+
+
+
+
+

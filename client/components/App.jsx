@@ -9,9 +9,11 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <div>
+        <div id='main'>
           <Render />
-          <p>Hello world</p>
+
+
+          
           {/* TEMP DISABLED */}
           {/* Means that if showLanding is true we display the portal page, if not we display webapp */}
           {/* { this.props.showLanding ? <LandingPage /> : <Main />} */}

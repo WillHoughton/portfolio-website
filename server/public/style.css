@@ -1,0 +1,57 @@
+/* Universal */
+* {
+    font-family: 'Nunito', sans-serif;
+}
+/* Main */
+body {
+    background: linear-gradient(to right, #FDC830, rgb(235, 95, 25));
+}
+
+#mainWrapper {
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#empty {
+    width: 90px;
+}
+
+/* Left */
+#left {
+    width: 400px;
+    margin-top: 10%;
+    /* align-content: center; */
+    text-align: center;
+}
+
+#will {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#name {
+    font-weight: bolder;
+    font-size: 20px
+}
+
+/* Right */
+#right {
+    width: 400px;
+    margin-top: 15%;
+    text-align: center;
+}
+#mainHeader {
+    font-weight: bold;
+    font-size: 25px;
+}
+#mainSubHeader {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+#mainIntro {
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
