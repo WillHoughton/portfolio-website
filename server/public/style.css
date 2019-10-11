@@ -39,7 +39,7 @@ body {
 /* Right */
 #right {
     width: 400px;
-    margin-top: 15%;
+    margin-top: 17%;
     text-align: center;
 }
 #mainHeader {
@@ -57,6 +57,9 @@ body {
 }
 
 /* Tech */
+#techWrapper {
+    margin-top: 70px;
+}
 #techHeader {
     font-size: 30px;
     font-weight: bolder;
