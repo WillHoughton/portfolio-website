@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 
 
 
-export default function Render() {
+export default function Technologies() {
     return (
         <div id='techWrapper'>
             <p id='techHeader'>Technologies</p>

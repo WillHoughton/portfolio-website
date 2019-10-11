@@ -6,6 +6,8 @@ import { HashRouter as Router, Route } from 'react-router-dom'
 // Component Imports
 import Main from './Main'
 import Technologies from './Technologies'
+import Projects from './Projects'
+import Blog from './Blog'
 
 
 export default function Render() {
@@ -13,6 +15,8 @@ export default function Render() {
     <Fragment>
       <Main />
       <Technologies />
+      <Projects />
+      <Blog />
     </Fragment>
   )
 }

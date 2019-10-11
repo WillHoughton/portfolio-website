@@ -4,38 +4,38 @@ import { connect } from 'react-redux'
 import { HashRouter as Router, Route } from 'react-router-dom'
 
 
-export default function Projects() {
+export default function Blog() {
     return (
         <div id='proWrapper'>
-            <p id='proHeader'>Projects</p>
+            <p id='proHeader'>Blog</p>
             <div id='projects'>
                 <div className='project'>
-                    <img className='projectImage' src='/assets/images/code.jpeg' />
-                    <p className='projectName'>Project 1</p>
+                    <img className='projectImage' src='/assets/images/blog.jpeg' />
+                    <p className='projectName'>Blog 1</p>
                     <p className='projectDesc'>Description</p>
                 </div>
                 <div className='project'>
-                    <img className='projectImage' src='/assets/images/code.jpeg' />
-                    <p className='projectName'>Project 2</p>
+                    <img className='projectImage' src='/assets/images/blog.jpeg' />
+                    <p className='projectName'>Blog 2</p>
                     <p className='projectDesc'>Description</p>
                 </div>
                 <div className='project'>
-                    <img className='projectImage' src='/assets/images/code.jpeg' />
-                    <p className='projectName'>Project 3</p>
+                    <img className='projectImage' src='/assets/images/blog.jpeg' />
+                    <p className='projectName'>Blog 3</p>
                     <p className='projectDesc'>Description</p>
                 </div>
                 <div className='project'>
-                    <img className='projectImage' src='/assets/images/code.jpeg' />
-                    <p className='projectName'>Project 4</p>
+                    <img className='projectImage' src='/assets/images/blog.jpeg' />
+                    <p className='projectName'>Blog 4</p>
                     <p className='projectDesc'>Description</p>
                 </div>
                 <div className='project'>
-                    <img className='projectImage' src='/assets/images/code.jpeg' />
-                    <p className='projectName'>Project 5</p>
+                    <img className='projectImage' src='/assets/images/blog.jpeg' />
+                    <p className='projectName'>Blog 5</p>
                     <p className='projectDesc'>Description</p>
                 </div>
                 <div className='project'>
-                    <img className='projectImage' src='/assets/images/code.jpeg' />
+                    <img className='projectImage' src='/assets/images/blog.jpeg' />
                     <p className='projectName'>See More....</p>
                     <p className='projectDesc'>Description</p>
                 </div>

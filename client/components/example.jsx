@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { HashRouter as Router, Route } from 'react-router-dom'
 
 
-export default function Render() {
+export default function Example() {
   return ;
 }
 
