@@ -11,8 +11,8 @@ export default function Main() {
           <p id='title'>Full Stack Web Developer</p>
           <p id='location'>Wellington, New Zealand</p>
         </div>
-        
-        <div id='empty'></div>
+
+        {/* <div id='empty'></div> */}
 
         <div id='right'>
           <p id='mainHeader'>Hello!</p>

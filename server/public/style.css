@@ -39,7 +39,7 @@ body {
 /* Right */
 #right {
     width: 400px;
-    margin-top: 15%;
+    margin-top: 17%;
     text-align: center;
 }
 #mainHeader {
@@ -54,4 +54,28 @@ body {
 #mainIntro {
     border-left: 1px solid black;
     padding-left: 20px;
+}
+
+/* Tech */
+#techWrapper {
+    margin-top: 70px;
+}
+#techHeader {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: linear-gradient(to right, #41295a, #2f0743);
+}
+#techImages {
+    text-align: center
+}
+
+.techImage {
+    width: 80px;
+    padding: 20px;
+    align-items: center;
+    transition: transform .2s;
+}
+.techImage:hover {
+    transform: scale(1.5);
 }
