@@ -9,7 +9,7 @@
     "dev:server": "nodemon server",
     "build": "webpack --config client/webpack.config.js",
     "server": "node server",
-    "start": "run-s build server",
+    "start": "build server",
     "test": "jest --verbose --watchAll"
   },
   "babel": {
