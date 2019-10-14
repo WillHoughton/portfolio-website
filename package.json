@@ -2,7 +2,7 @@
   "name": "restful-react-from-scratch",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "MIT", 
   "scripts": {
     "dev": "run-p dev:client dev:server",
     "dev:client": "npm run build -- --watch",
