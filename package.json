@@ -8,8 +8,7 @@
     "dev:client": "npm run build -- --watch",
     "dev:server": "nodemon server",
     "build": "webpack --config client/webpack.config.js",
-    "server": "node server",
-    "start": "build server",
+    "start": "node server",
     "test": "jest --verbose --watchAll"
   },
   "babel": {

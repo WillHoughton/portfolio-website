@@ -10,20 +10,21 @@ export default function Projects() {
             <p id='proHeader'>Projects</p>
             <div id='projects'>
                 <div className='project'>
-                    <img className='projectImage' src='/assets/images/code.jpeg' />
-                    <p className='projectName'>Project 1</p>
-                    <p className='projectDesc'>Description</p>
+                    <img className='projectImage' src='/assets/projects/code-a-rocket.png' />
+                    <p className='Code a Rocket'>Code a Rocket</p>
+                    <p className='projectDesc'>A rocket building game. <br />Technologies used: <br />React.js, Redux.js, HTML, CSS</p>
+                    <a href='http://code-a-rocket.herokuapp.com' target='_blank'><button>View Live</button></a>
+                    <a href='https://github.com/WillHoughton/Team-Rocket' target='_blank'><button>Fork</button></a>
                 </div>
                 <div className='project'>
-                    <img className='projectImage' src='/assets/images/code.jpeg' />
-                    <p className='projectName'>Project 2</p>
-                    <p className='projectDesc'>Description</p>
-
+                    <img className='projectImage' src='/assets/projects/portfolio-web.png' />
+                    <p className='projectName'>Portfolio Website</p>
+                    <p className='projectDesc'>Personal website where I share content produced.</p>
                 </div>
                 <div className='project'>
-                    <img className='projectImage' src='/assets/images/code.jpeg' />
-                    <p className='projectName'>Project 3</p>
-                    <p className='projectDesc'>Description</p>
+                    <img className='projectImage' src='/assets/projects/irritation.jpeg' />
+                    <p className='projectName'>Irritation Website</p>
+                    <p className='projectDesc'>An annoying website built to irritate</p>
 
                 </div>
                 <div className='project'>

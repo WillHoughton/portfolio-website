@@ -95,7 +95,7 @@ body {
     justify-content: center;
 }
 .project {    
-    margin: 50px; 
+    margin: 60px; 
     padding: 5px;
     transition: transform .2s;
 }

@@ -11,10 +11,11 @@ export default function Technologies() {
                 <a href="https://handlebarsjs.com/" target='_blank'><img src="/assets/icons/handlebars.png" alt="image" className='techImage' /></a>
                 <a href="https://jestjs.io/" target='_blank'><img src="/assets/icons/jest.png" alt="image" className='techImage' /></a>
                 <a href="https://nodejs.org/" target='_blank'><img src="/assets/icons/node.png" alt="image" className='techImage' /></a>
-                <a href="https://www.postgresql.org/" target='_blank'><img src="/assets/icons/postgreSQL.png" alt="image" className='techImage' /></a>
+                <a href="https://sqlite.org/index.html" target='_blank'><img src="/assets/icons/sqlite.png" alt="image" className='techImage' /></a>
                 <a href="https://reactjs.org/" target='_blank'><img src="/assets/icons/react.png" alt="image" className='techImage' /></a>
                 <a href="https://redux.js.org/" target='_blank'><img src="/assets/icons/redux.png" alt="image" className='techImage' /></a>
                 <a href="https://facebook.github.io/react-native/" target='_blank'><img src="/assets/icons/react-native.png" alt="image" className='techImage' /></a>
+                <a href="https://expressjs.com/" target='_blank'><img src="/assets/icons/express.jpeg" alt="image" className='techImage' /></a>
             </div>
         </div>
     )
