@@ -6,7 +6,7 @@ export default function Main() {
     <div id='mainPage'>
       <div id='mainWrapper'>
         <div id='left'>
-          <img id='will' src="/assets/images/will.png" alt='will'></img>
+          <img id='will' src="/assets/photos/will.png" alt='will'></img>
           <p id='name'>William Houghton</p>
           <p id='title'>Full Stack Web Developer</p>
           <p id='location'>Wellington, New Zealand</p>
